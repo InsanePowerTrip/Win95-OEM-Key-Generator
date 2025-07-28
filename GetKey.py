@@ -2,9 +2,6 @@ import random
 
 syntax = "XXXYY-OEM-00SSSSS-ZZZZZ"
 
-def doNothing():
-    pass
-
 x = str(random.randint(1, 366))
 if len(x) == 1:
     x = "00" + x
